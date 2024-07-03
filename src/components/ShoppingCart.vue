@@ -115,7 +115,7 @@ const rule = reactive({
     <template v-else>
       <VCard>
         <VContainer class="d-flex flex-column align-center justify-center">
-          <VCardTitle class="text-h3 mt-12">
+          <VCardTitle class="text-h3 mt-12 text-wrap text-center">
             Sorry your shopping cart is empty
           </VCardTitle>
           <VBtn
